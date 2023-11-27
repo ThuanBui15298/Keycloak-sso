@@ -108,8 +108,8 @@ import static java.lang.Boolean.TRUE;
 public class ClientResource {
     protected static final Logger logger = Logger.getLogger(ClientResource.class);
     protected RealmModel realm;
-    private AdminPermissionEvaluator auth;
-    private AdminEventBuilder adminEvent;
+    private final AdminPermissionEvaluator auth;
+    private final AdminEventBuilder adminEvent;
     protected ClientModel client;
     protected final KeycloakSession session;
 

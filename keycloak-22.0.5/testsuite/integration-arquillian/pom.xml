@@ -457,6 +457,7 @@
                 <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>
                 <keycloak.connectionsJpa.user>keycloak</keycloak.connectionsJpa.user>
                 <keycloak.connectionsJpa.password>keycloak</keycloak.connectionsJpa.password>
+                <!--suppress UnresolvedMavenProperty -->
                 <keycloak.connectionsJpa.url>jdbc:mysql://${auth.server.db.host}/${keycloak.connectionsJpa.database}?allowPublicKeyRetrieval=true</keycloak.connectionsJpa.url>
                 <!-- Map Store JPA -->
                 <keycloak.map.storage.connectionsJpa.url>${keycloak.connectionsJpa.url}</keycloak.map.storage.connectionsJpa.url>
@@ -492,6 +493,7 @@
                 <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>
                 <keycloak.connectionsJpa.user>keycloak</keycloak.connectionsJpa.user>
                 <keycloak.connectionsJpa.password>keycloak</keycloak.connectionsJpa.password>
+                <!--suppress UnresolvedMavenProperty -->
                 <keycloak.connectionsJpa.url>jdbc:postgresql://${auth.server.db.host}/${keycloak.connectionsJpa.database}</keycloak.connectionsJpa.url>
                 <!-- Map Store JPA -->
                 <keycloak.map.storage.connectionsJpa.url>${keycloak.connectionsJpa.url}</keycloak.map.storage.connectionsJpa.url>
@@ -534,6 +536,7 @@
                 <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>
                 <keycloak.connectionsJpa.user>keycloak</keycloak.connectionsJpa.user>
                 <keycloak.connectionsJpa.password>keycloak</keycloak.connectionsJpa.password>
+                <!--suppress UnresolvedMavenProperty -->
                 <keycloak.connectionsJpa.url>jdbc:mariadb://${auth.server.db.host}/${keycloak.connectionsJpa.database}</keycloak.connectionsJpa.url>
                 <!-- Map Store JPA -->
                 <keycloak.map.storage.connectionsJpa.url>${keycloak.connectionsJpa.url}</keycloak.map.storage.connectionsJpa.url>
@@ -575,6 +578,7 @@
                 <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>
                 <keycloak.connectionsJpa.user>sa</keycloak.connectionsJpa.user>
                 <keycloak.connectionsJpa.password>vEry5tron9Pwd</keycloak.connectionsJpa.password>
+                <!--suppress UnresolvedMavenProperty -->
                 <keycloak.connectionsJpa.url>jdbc:sqlserver://${auth.server.db.host}:${docker.database.port};databaseName=${keycloak.connectionsJpa.database};integratedSecurity=false;encrypt=false;trustServerCertificate=true;sendStringParametersAsUnicode=false;</keycloak.connectionsJpa.url>
                 <!-- Map Store JPA -->
                 <keycloak.map.storage.connectionsJpa.url>${keycloak.connectionsJpa.url}</keycloak.map.storage.connectionsJpa.url>
@@ -610,6 +614,7 @@
                 <keycloak.connectionsJpa.database>XE</keycloak.connectionsJpa.database>
                 <keycloak.connectionsJpa.user>keycloak</keycloak.connectionsJpa.user>
                 <keycloak.connectionsJpa.password>keycloak</keycloak.connectionsJpa.password>
+                <!--suppress UnresolvedMavenProperty -->
                 <keycloak.connectionsJpa.url>jdbc:oracle:thin:@${auth.server.db.host}:${docker.database.port}:${keycloak.connectionsJpa.database}</keycloak.connectionsJpa.url>
                 <!-- Map Store JPA -->
                 <keycloak.map.storage.connectionsJpa.url>${keycloak.connectionsJpa.url}</keycloak.map.storage.connectionsJpa.url>

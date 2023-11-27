@@ -29,17 +29,28 @@
     <name>Keycloak Model JPA</name>
     <description/>
 
+<!--    <properties>-->
+<!--        <keycloak.connectionsJpa.driver>org.h2.Driver</keycloak.connectionsJpa.driver>-->
+<!--        <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>-->
+<!--        <keycloak.connectionsJpa.user>sa</keycloak.connectionsJpa.user>-->
+<!--        <keycloak.connectionsJpa.password></keycloak.connectionsJpa.password>-->
+<!--        <keycloak.connectionsJpa.url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1</keycloak.connectionsJpa.url>-->
+<!--        <jdbc.mvn.groupId>com.h2database</jdbc.mvn.groupId>-->
+<!--        <jdbc.mvn.artifactId>h2</jdbc.mvn.artifactId>-->
+<!--&lt;!&ndash;        <jdbc.mvn.version>${h2.version}</jdbc.mvn.version>&ndash;&gt;-->
+<!--    </properties>-->
+
     <properties>
-        <keycloak.connectionsJpa.driver>org.h2.Driver</keycloak.connectionsJpa.driver>
+        <keycloak.connectionsJpa.driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</keycloak.connectionsJpa.driver>
         <keycloak.connectionsJpa.database>keycloak</keycloak.connectionsJpa.database>
         <keycloak.connectionsJpa.user>sa</keycloak.connectionsJpa.user>
-        <keycloak.connectionsJpa.password></keycloak.connectionsJpa.password>
-        <keycloak.connectionsJpa.url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1</keycloak.connectionsJpa.url>
-        <jdbc.mvn.groupId>com.h2database</jdbc.mvn.groupId>
-        <jdbc.mvn.artifactId>h2</jdbc.mvn.artifactId>
-        <jdbc.mvn.version>${h2.version}</jdbc.mvn.version>
+        <keycloak.connectionsJpa.password>Abc@123456789</keycloak.connectionsJpa.password>
+        <keycloak.connectionsJpa.url>db-url=jdbc:sqlserver://172.16.100.126:1433;databaseName=KEYCLOAK;encrypt=false</keycloak.connectionsJpa.url>
+        <jdbc.mvn.groupId>com.microsoft.sqlserver</jdbc.mvn.groupId>
+        <jdbc.mvn.artifactId>mssql-jdbc</jdbc.mvn.artifactId>
+        <jdbc.mvn.version>${version}</jdbc.mvn.version>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.keycloak</groupId>

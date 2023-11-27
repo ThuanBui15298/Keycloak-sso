@@ -34,7 +34,7 @@ const defaultEnvironment: Environment = {
   resourceUrl: ".",
   masterRealm: "master",
   resourceVersion: "unknown",
-  logo: "/logo1.svg",
+  logo: "/trace.svg",
   logoUrl: "",
 };
 

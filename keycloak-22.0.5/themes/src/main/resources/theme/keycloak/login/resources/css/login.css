@@ -72,10 +72,10 @@ a#kc-current-locale-link::after {
 }
 
 div.kc-logo-text {
-    background-image: url(../img/vietnampost.png);
+    background-image: url(../img/vnpost-logo1.png);
     background-repeat: no-repeat;
-    height: 60px;
-    width: 210px;
+    height: 75px;
+    width: 140px;
     margin: 0 auto;
 }
 

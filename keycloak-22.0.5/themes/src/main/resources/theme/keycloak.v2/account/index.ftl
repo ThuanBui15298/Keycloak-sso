@@ -29,7 +29,7 @@
             <#if properties.logo?has_content>
             var brandImg = resourceUrl + '${properties.logo}';
             <#else>
-            var brandImg = resourceUrl + '/public/logo1.svg';
+            var brandImg = resourceUrl + '/public/trace.svg';
             </#if>
 
             <#if properties.logoUrl?has_content>
@@ -152,7 +152,7 @@
         <#if properties.logo?has_content>
         <img src="${resourceUrl}${properties.logo}" alt="Logo" class="brand">
         <#else>
-        <img src="${resourceUrl}/public/logo1.svg" alt="Logo" class="brand">
+        <img src="${resourceUrl}/public/trace.svg" alt="Logo" class="brand">
         </#if>
         <p>${msg("loadingMessage")}</p>
         <div>
@@ -177,7 +177,7 @@
             <#if properties.logo?has_content>
             <img class="pf-c-brand brand" src="${resourceUrl}${properties.logo}" alt="Logo">
             <#else>
-            <img class="pf-c-brand brand" src="${resourceUrl}/public/logo1.svg" alt="Logo">
+            <img class="pf-c-brand brand" src="${resourceUrl}/public/trace.svg" alt="Logo">
             </#if>
           </a>
         </div>

@@ -212,11 +212,11 @@
 
     "connectionsJpa": {
         "default": {
-            "url": "${keycloak.connectionsJpa.url:jdbc:h2:mem:test;DB_CLOSE_DELAY=-1}",
-            "driver": "${keycloak.connectionsJpa.driver:org.h2.Driver}",
+            "url": "${keycloak.connectionsJpa.url:jdbc:sqlserver://172.16.100.126:1433;databaseName=KEYCLOAKSQL;encrypt=false}",
+            "driver": "${com.microsoft.sqlserver.jdbc.SQLServerDriver}",
             "driverDialect": "${keycloak.connectionsJpa.driverDialect:}",
             "user": "${keycloak.connectionsJpa.user:sa}",
-            "password": "${keycloak.connectionsJpa.password:}",
+            "password": "${keycloak.connectionsJpa.password:Abc@123456789}",
             "showSql": "${keycloak.connectionsJpa.showSql:}",
             "formatSql": "${keycloak.connectionsJpa.formatSql:}",
             "globalStatsInterval": "${keycloak.connectionsJpa.globalStatsInterval:}"

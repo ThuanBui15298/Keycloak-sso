@@ -172,7 +172,7 @@ export const Header = () => {
     );
   };
 
-  const logo = environment.logo ? environment.logo : "/logo1.svg";
+  const logo = environment.logo ? environment.logo : "/trace.svg";
   const logoUrl = environment.logoUrl
     ? environment.logoUrl
     : toDashboard({ realm });

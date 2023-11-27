@@ -120,7 +120,7 @@ public final class Database {
 
     public enum Vendor {
         H2("h2",
-                Enabled.LEGACY_ONLY, 
+                Enabled.LEGACY_ONLY,
                 "org.h2.jdbcx.JdbcDataSource",
                 "org.h2.Driver",
                 "org.hibernate.dialect.H2Dialect",
@@ -247,7 +247,7 @@ public final class Database {
             this.dialect = dialect;
             this.defaultUrl = defaultUrl;
             this.liquibaseTypes = liquibaseTypes;
-            this.aliases = aliases.length == 0 ? new String[] { databaseKind } : aliases;
+            this.aliases = aliases.length == 0 ? new String[]{databaseKind} : aliases;
         }
 
         public boolean isEnabledOnLegacyStore() {
