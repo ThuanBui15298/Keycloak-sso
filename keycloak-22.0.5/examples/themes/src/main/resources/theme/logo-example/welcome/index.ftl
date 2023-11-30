@@ -18,7 +18,7 @@
 
 <html>
 <head>
-    <title>Welcome to Keycloak</title>
+    <title>Welcome to VNPost</title>
     <link rel="shortcut icon" href="welcome-content/favicon.ico" type="image/x-icon">
     <link rel="StyleSheet" href="welcome-content/keycloak.css" type="text/css">
 </head>
@@ -29,7 +29,7 @@
         <div class="logo">
                 <img src="welcome-content/red-hat-logo.png" alt="Red Hat" border="0" />
         </div>
-        <h1>Welcome to Keycloak</h1>
+        <h1>Welcome to VNPost</h1>
 
         <h3>Your Keycloak is running.</h3>
 
